@@ -4,29 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/book">
+    android:background="@drawable/book"
+    tools:context="com.example.minenliang.ai_ui.infoActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="162dp"
         android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="22dp"
+        android:layout_marginBottom="7dp"
         android:layout_marginTop="73dp"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
-        app:layout_constraintEnd_toEndOf="@+id/editText"
-        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/listView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editText"
+    <ListView
+        android:id="@+id/listView3"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="233dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginStart="38dp"
-        android:ems="10"
-        android:inputType="textMultiLine"
+        android:layout_height="0dp"
+        android:layout_marginBottom="81dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
